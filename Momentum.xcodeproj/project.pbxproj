@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A2A3F812B508F93006DD241 /* MomentumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A3F802B508F93006DD241 /* MomentumApp.swift */; };
+		5A2A3F832B508F93006DD241 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A3F822B508F93006DD241 /* ContentView.swift */; };
+		5A2A3F852B508F94006DD241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A3F842B508F94006DD241 /* Assets.xcassets */; };
+		5A2A3F882B508F94006DD241 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A3F872B508F94006DD241 /* Preview Assets.xcassets */; };
+		5A2A3F932B508F94006DD241 /* MomentumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A3F922B508F94006DD241 /* MomentumTests.swift */; };
+		5A2A3F9D2B508F94006DD241 /* MomentumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A3F9C2B508F94006DD241 /* MomentumUITests.swift */; };
+		5A2A3F9F2B508F94006DD241 /* MomentumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A3F9E2B508F94006DD241 /* MomentumUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A2A3F8F2B508F94006DD241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A2A3F752B508F93006DD241 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A2A3F7C2B508F93006DD241;
+			remoteInfo = Momentum;
+		};
+		5A2A3F992B508F94006DD241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A2A3F752B508F93006DD241 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A2A3F7C2B508F93006DD241;
+			remoteInfo = Momentum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A2A3F7D2B508F93006DD241 /* Momentum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Momentum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2A3F802B508F93006DD241 /* MomentumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentumApp.swift; sourceTree = "<group>"; };
+		5A2A3F822B508F93006DD241 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A2A3F842B508F94006DD241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A2A3F872B508F94006DD241 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A2A3F892B508F94006DD241 /* Momentum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Momentum.entitlements; sourceTree = "<group>"; };
+		5A2A3F8E2B508F94006DD241 /* MomentumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2A3F922B508F94006DD241 /* MomentumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentumTests.swift; sourceTree = "<group>"; };
+		5A2A3F982B508F94006DD241 /* MomentumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2A3F9C2B508F94006DD241 /* MomentumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentumUITests.swift; sourceTree = "<group>"; };
+		5A2A3F9E2B508F94006DD241 /* MomentumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A2A3F7A2B508F93006DD241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2A3F8B2B508F94006DD241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2A3F952B508F94006DD241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A2A3F742B508F93006DD241 = {
+			isa = PBXGroup;
+			children = (
+				5A2A3F7F2B508F93006DD241 /* Momentum */,
+				5A2A3F912B508F94006DD241 /* MomentumTests */,
+				5A2A3F9B2B508F94006DD241 /* MomentumUITests */,
+				5A2A3F7E2B508F93006DD241 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A2A3F7E2B508F93006DD241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A2A3F7D2B508F93006DD241 /* Momentum.app */,
+				5A2A3F8E2B508F94006DD241 /* MomentumTests.xctest */,
+				5A2A3F982B508F94006DD241 /* MomentumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A2A3F7F2B508F93006DD241 /* Momentum */ = {
+			isa = PBXGroup;
+			children = (
+				5A2A3F802B508F93006DD241 /* MomentumApp.swift */,
+				5A2A3F822B508F93006DD241 /* ContentView.swift */,
+				5A2A3F842B508F94006DD241 /* Assets.xcassets */,
+				5A2A3F892B508F94006DD241 /* Momentum.entitlements */,
+				5A2A3F862B508F94006DD241 /* Preview Content */,
+			);
+			path = Momentum;
+			sourceTree = "<group>";
+		};
+		5A2A3F862B508F94006DD241 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5A2A3F872B508F94006DD241 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A2A3F912B508F94006DD241 /* MomentumTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A2A3F922B508F94006DD241 /* MomentumTests.swift */,
+			);
+			path = MomentumTests;
+			sourceTree = "<group>";
+		};
+		5A2A3F9B2B508F94006DD241 /* MomentumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A2A3F9C2B508F94006DD241 /* MomentumUITests.swift */,
+				5A2A3F9E2B508F94006DD241 /* MomentumUITestsLaunchTests.swift */,
+			);
+			path = MomentumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A2A3F7C2B508F93006DD241 /* Momentum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2A3FA22B508F94006DD241 /* Build configuration list for PBXNativeTarget "Momentum" */;
+			buildPhases = (
+				5A2A3F792B508F93006DD241 /* Sources */,
+				5A2A3F7A2B508F93006DD241 /* Frameworks */,
+				5A2A3F7B2B508F93006DD241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Momentum;
+			productName = Momentum;
+			productReference = 5A2A3F7D2B508F93006DD241 /* Momentum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A2A3F8D2B508F94006DD241 /* MomentumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2A3FA52B508F94006DD241 /* Build configuration list for PBXNativeTarget "MomentumTests" */;
+			buildPhases = (
+				5A2A3F8A2B508F94006DD241 /* Sources */,
+				5A2A3F8B2B508F94006DD241 /* Frameworks */,
+				5A2A3F8C2B508F94006DD241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A2A3F902B508F94006DD241 /* PBXTargetDependency */,
+			);
+			name = MomentumTests;
+			productName = MomentumTests;
+			productReference = 5A2A3F8E2B508F94006DD241 /* MomentumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A2A3F972B508F94006DD241 /* MomentumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2A3FA82B508F94006DD241 /* Build configuration list for PBXNativeTarget "MomentumUITests" */;
+			buildPhases = (
+				5A2A3F942B508F94006DD241 /* Sources */,
+				5A2A3F952B508F94006DD241 /* Frameworks */,
+				5A2A3F962B508F94006DD241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A2A3F9A2B508F94006DD241 /* PBXTargetDependency */,
+			);
+			name = MomentumUITests;
+			productName = MomentumUITests;
+			productReference = 5A2A3F982B508F94006DD241 /* MomentumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A2A3F752B508F93006DD241 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5A2A3F7C2B508F93006DD241 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5A2A3F8D2B508F94006DD241 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5A2A3F7C2B508F93006DD241;
+					};
+					5A2A3F972B508F94006DD241 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5A2A3F7C2B508F93006DD241;
+					};
+				};
+			};
+			buildConfigurationList = 5A2A3F782B508F93006DD241 /* Build configuration list for PBXProject "Momentum" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A2A3F742B508F93006DD241;
+			productRefGroup = 5A2A3F7E2B508F93006DD241 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A2A3F7C2B508F93006DD241 /* Momentum */,
+				5A2A3F8D2B508F94006DD241 /* MomentumTests */,
+				5A2A3F972B508F94006DD241 /* MomentumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A2A3F7B2B508F93006DD241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2A3F882B508F94006DD241 /* Preview Assets.xcassets in Resources */,
+				5A2A3F852B508F94006DD241 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2A3F8C2B508F94006DD241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2A3F962B508F94006DD241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A2A3F792B508F93006DD241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2A3F832B508F93006DD241 /* ContentView.swift in Sources */,
+				5A2A3F812B508F93006DD241 /* MomentumApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2A3F8A2B508F94006DD241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2A3F932B508F94006DD241 /* MomentumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2A3F942B508F94006DD241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2A3F9F2B508F94006DD241 /* MomentumUITestsLaunchTests.swift in Sources */,
+				5A2A3F9D2B508F94006DD241 /* MomentumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A2A3F902B508F94006DD241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A2A3F7C2B508F93006DD241 /* Momentum */;
+			targetProxy = 5A2A3F8F2B508F94006DD241 /* PBXContainerItemProxy */;
+		};
+		5A2A3F9A2B508F94006DD241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A2A3F7C2B508F93006DD241 /* Momentum */;
+			targetProxy = 5A2A3F992B508F94006DD241 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A2A3FA02B508F94006DD241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A2A3FA12B508F94006DD241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5A2A3FA32B508F94006DD241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Momentum/Momentum.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Momentum/Preview Content\"";
+				DEVELOPMENT_TEAM = P4DQK6SRKR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcusziade.Momentum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5A2A3FA42B508F94006DD241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Momentum/Momentum.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Momentum/Preview Content\"";
+				DEVELOPMENT_TEAM = P4DQK6SRKR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcusziade.Momentum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5A2A3FA62B508F94006DD241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4DQK6SRKR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcusziade.MomentumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Momentum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Momentum";
+			};
+			name = Debug;
+		};
+		5A2A3FA72B508F94006DD241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4DQK6SRKR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcusziade.MomentumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Momentum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Momentum";
+			};
+			name = Release;
+		};
+		5A2A3FA92B508F94006DD241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4DQK6SRKR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcusziade.MomentumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Momentum;
+			};
+			name = Debug;
+		};
+		5A2A3FAA2B508F94006DD241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4DQK6SRKR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcusziade.MomentumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Momentum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A2A3F782B508F93006DD241 /* Build configuration list for PBXProject "Momentum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2A3FA02B508F94006DD241 /* Debug */,
+				5A2A3FA12B508F94006DD241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A2A3FA22B508F94006DD241 /* Build configuration list for PBXNativeTarget "Momentum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2A3FA32B508F94006DD241 /* Debug */,
+				5A2A3FA42B508F94006DD241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A2A3FA52B508F94006DD241 /* Build configuration list for PBXNativeTarget "MomentumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2A3FA62B508F94006DD241 /* Debug */,
+				5A2A3FA72B508F94006DD241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A2A3FA82B508F94006DD241 /* Build configuration list for PBXNativeTarget "MomentumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2A3FA92B508F94006DD241 /* Debug */,
+				5A2A3FAA2B508F94006DD241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A2A3F752B508F93006DD241 /* Project object */;
+}
