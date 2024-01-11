@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5A2A3F812B508F93006DD241 /* MomentumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A3F802B508F93006DD241 /* MomentumApp.swift */; };
-		5A2A3F832B508F93006DD241 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A3F822B508F93006DD241 /* ContentView.swift */; };
+		5A2A3F832B508F93006DD241 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A3F822B508F93006DD241 /* TimerView.swift */; };
 		5A2A3F852B508F94006DD241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A3F842B508F94006DD241 /* Assets.xcassets */; };
-		5A2A3F882B508F94006DD241 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A3F872B508F94006DD241 /* Preview Assets.xcassets */; };
-		5A2A3F932B508F94006DD241 /* MomentumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A3F922B508F94006DD241 /* MomentumTests.swift */; };
-		5A2A3F9D2B508F94006DD241 /* MomentumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A3F9C2B508F94006DD241 /* MomentumUITests.swift */; };
-		5A2A3F9F2B508F94006DD241 /* MomentumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A3F9E2B508F94006DD241 /* MomentumUITestsLaunchTests.swift */; };
+		5A2A3FAC2B508FF3006DD241 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A3FAB2B508FF3006DD241 /* TimerManager.swift */; };
+		5A2A3FAE2B509000006DD241 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A3FAD2B509000006DD241 /* NotificationManager.swift */; };
+		5AB983A42B50A24D0072CEB3 /* done-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AB983A32B50A24D0072CEB3 /* done-animation.json */; };
+		5AB983A72B50A2A70072CEB3 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5AB983A62B50A2A70072CEB3 /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,15 +36,14 @@
 /* Begin PBXFileReference section */
 		5A2A3F7D2B508F93006DD241 /* Momentum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Momentum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2A3F802B508F93006DD241 /* MomentumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentumApp.swift; sourceTree = "<group>"; };
-		5A2A3F822B508F93006DD241 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A2A3F822B508F93006DD241 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		5A2A3F842B508F94006DD241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5A2A3F872B508F94006DD241 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5A2A3F892B508F94006DD241 /* Momentum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Momentum.entitlements; sourceTree = "<group>"; };
 		5A2A3F8E2B508F94006DD241 /* MomentumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A2A3F922B508F94006DD241 /* MomentumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentumTests.swift; sourceTree = "<group>"; };
 		5A2A3F982B508F94006DD241 /* MomentumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A2A3F9C2B508F94006DD241 /* MomentumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentumUITests.swift; sourceTree = "<group>"; };
-		5A2A3F9E2B508F94006DD241 /* MomentumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A2A3FAB2B508FF3006DD241 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		5A2A3FAD2B509000006DD241 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		5AB983A32B50A24D0072CEB3 /* done-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "done-animation.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AB983A72B50A2A70072CEB3 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				5A2A3F7F2B508F93006DD241 /* Momentum */,
-				5A2A3F912B508F94006DD241 /* MomentumTests */,
-				5A2A3F9B2B508F94006DD241 /* MomentumUITests */,
 				5A2A3F7E2B508F93006DD241 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,37 +94,14 @@
 			isa = PBXGroup;
 			children = (
 				5A2A3F802B508F93006DD241 /* MomentumApp.swift */,
-				5A2A3F822B508F93006DD241 /* ContentView.swift */,
+				5A2A3F822B508F93006DD241 /* TimerView.swift */,
+				5A2A3FAB2B508FF3006DD241 /* TimerManager.swift */,
+				5A2A3FAD2B509000006DD241 /* NotificationManager.swift */,
 				5A2A3F842B508F94006DD241 /* Assets.xcassets */,
 				5A2A3F892B508F94006DD241 /* Momentum.entitlements */,
-				5A2A3F862B508F94006DD241 /* Preview Content */,
+				5AB983A32B50A24D0072CEB3 /* done-animation.json */,
 			);
 			path = Momentum;
-			sourceTree = "<group>";
-		};
-		5A2A3F862B508F94006DD241 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				5A2A3F872B508F94006DD241 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		5A2A3F912B508F94006DD241 /* MomentumTests */ = {
-			isa = PBXGroup;
-			children = (
-				5A2A3F922B508F94006DD241 /* MomentumTests.swift */,
-			);
-			path = MomentumTests;
-			sourceTree = "<group>";
-		};
-		5A2A3F9B2B508F94006DD241 /* MomentumUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5A2A3F9C2B508F94006DD241 /* MomentumUITests.swift */,
-				5A2A3F9E2B508F94006DD241 /* MomentumUITestsLaunchTests.swift */,
-			);
-			path = MomentumUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +120,9 @@
 			dependencies = (
 			);
 			name = Momentum;
+			packageProductDependencies = (
+				5AB983A62B50A2A70072CEB3 /* Lottie */,
+			);
 			productName = Momentum;
 			productReference = 5A2A3F7D2B508F93006DD241 /* Momentum.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +195,9 @@
 				Base,
 			);
 			mainGroup = 5A2A3F742B508F93006DD241;
+			packageReferences = (
+				5AB983A52B50A2A70072CEB3 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 5A2A3F7E2B508F93006DD241 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A2A3F882B508F94006DD241 /* Preview Assets.xcassets in Resources */,
+				5AB983A42B50A24D0072CEB3 /* done-animation.json in Resources */,
 				5A2A3F852B508F94006DD241 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +240,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A2A3F832B508F93006DD241 /* ContentView.swift in Sources */,
+				5A2A3FAC2B508FF3006DD241 /* TimerManager.swift in Sources */,
+				5A2A3F832B508F93006DD241 /* TimerView.swift in Sources */,
+				5A2A3FAE2B509000006DD241 /* NotificationManager.swift in Sources */,
 				5A2A3F812B508F93006DD241 /* MomentumApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A2A3F932B508F94006DD241 /* MomentumTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A2A3F9F2B508F94006DD241 /* MomentumUITestsLaunchTests.swift in Sources */,
-				5A2A3F9D2B508F94006DD241 /* MomentumUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +404,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Momentum/Preview Content\"";
 				DEVELOPMENT_TEAM = P4DQK6SRKR;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -451,7 +430,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Momentum/Preview Content\"";
 				DEVELOPMENT_TEAM = P4DQK6SRKR;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -581,6 +559,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5AB983A52B50A2A70072CEB3 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5AB983A62B50A2A70072CEB3 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AB983A52B50A2A70072CEB3 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5A2A3F752B508F93006DD241 /* Project object */;
 }
