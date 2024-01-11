@@ -20,15 +20,12 @@ struct TimerView: View {
                 .padding()
                 
                 if timerManager.isCompleted {
-                    ZStack {
-                        completionAnimationView
-                            .frame(width: .infinity, height: .infinity)
-                            .onTapGesture {
-                                withAnimation(timerManager.animationStyle) {
-                                    timerManager.isCompleted.toggle()
-                                }
+                    completionAnimationView
+                        .onTapGesture {
+                            withAnimation(timerManager.animationStyle) {
+                                timerManager.isCompleted.toggle()
                             }
-                    }
+                        }
                 } else {
                     Text("Set Timer")
                         .font(.largeTitle)
