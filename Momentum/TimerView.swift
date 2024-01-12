@@ -58,7 +58,7 @@ private extension TimerView {
             if timerManager.isCompleted {
                 LottieView(animation: .named("done-animation"))
                     .playing(loopMode: .loop)
-                    .frame(height: 100)
+                    .frame(height: 300)
             }
         }
     }
