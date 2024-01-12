@@ -42,6 +42,9 @@ final class TimerManager {
     
     func decrementTimerBy5Seconds() {
         timeRemaining -= 5
+        if timeRemaining <= 0 {
+            timeRemaining = 0
+        }
     }
     
     func pauseTimer() {
@@ -80,9 +83,7 @@ final class TimerManager {
         }
     }
     
-    private var timer: Timer?
-    
-    private func endTimer(duration: Int) {
+    func endTimer(duration: Int) {
         withAnimation(animationStyle) {
             isTimerActive = false
             timer?.invalidate()
@@ -91,4 +92,6 @@ final class TimerManager {
         }
         NotificationManager().sendNotification(forMinutes: duration)
     }
+    
+    private var timer: Timer?
 }

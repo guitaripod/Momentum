@@ -12,19 +12,13 @@
 		5A2A3F852B508F94006DD241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2A3F842B508F94006DD241 /* Assets.xcassets */; };
 		5A2A3FAC2B508FF3006DD241 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A3FAB2B508FF3006DD241 /* TimerManager.swift */; };
 		5A2A3FAE2B509000006DD241 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A3FAD2B509000006DD241 /* NotificationManager.swift */; };
+		5A7191062B50BDE800DC5A26 /* TimerManager_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7191052B50BDE800DC5A26 /* TimerManager_Tests.swift */; };
 		5AB983A42B50A24D0072CEB3 /* done-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AB983A32B50A24D0072CEB3 /* done-animation.json */; };
 		5AB983A72B50A2A70072CEB3 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5AB983A62B50A2A70072CEB3 /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		5A2A3F8F2B508F94006DD241 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A2A3F752B508F93006DD241 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5A2A3F7C2B508F93006DD241;
-			remoteInfo = Momentum;
-		};
-		5A2A3F992B508F94006DD241 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5A2A3F752B508F93006DD241 /* Project object */;
 			proxyType = 1;
@@ -40,9 +34,9 @@
 		5A2A3F842B508F94006DD241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A2A3F892B508F94006DD241 /* Momentum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Momentum.entitlements; sourceTree = "<group>"; };
 		5A2A3F8E2B508F94006DD241 /* MomentumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A2A3F982B508F94006DD241 /* MomentumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2A3FAB2B508FF3006DD241 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
 		5A2A3FAD2B509000006DD241 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		5A7191052B50BDE800DC5A26 /* TimerManager_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager_Tests.swift; sourceTree = "<group>"; };
 		5AB983A32B50A24D0072CEB3 /* done-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "done-animation.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,7 +79,6 @@
 			children = (
 				5A2A3F7D2B508F93006DD241 /* Momentum.app */,
 				5A2A3F8E2B508F94006DD241 /* MomentumTests.xctest */,
-				5A2A3F982B508F94006DD241 /* MomentumUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +89,7 @@
 				5A2A3F802B508F93006DD241 /* MomentumApp.swift */,
 				5A2A3F822B508F93006DD241 /* TimerView.swift */,
 				5A2A3FAB2B508FF3006DD241 /* TimerManager.swift */,
+				5A7191052B50BDE800DC5A26 /* TimerManager_Tests.swift */,
 				5A2A3FAD2B509000006DD241 /* NotificationManager.swift */,
 				5A2A3F842B508F94006DD241 /* Assets.xcassets */,
 				5A2A3F892B508F94006DD241 /* Momentum.entitlements */,
@@ -145,24 +139,6 @@
 			productReference = 5A2A3F8E2B508F94006DD241 /* MomentumTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5A2A3F972B508F94006DD241 /* MomentumUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5A2A3FA82B508F94006DD241 /* Build configuration list for PBXNativeTarget "MomentumUITests" */;
-			buildPhases = (
-				5A2A3F942B508F94006DD241 /* Sources */,
-				5A2A3F952B508F94006DD241 /* Frameworks */,
-				5A2A3F962B508F94006DD241 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5A2A3F9A2B508F94006DD241 /* PBXTargetDependency */,
-			);
-			name = MomentumUITests;
-			productName = MomentumUITests;
-			productReference = 5A2A3F982B508F94006DD241 /* MomentumUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -178,6 +154,7 @@
 					};
 					5A2A3F8D2B508F94006DD241 = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 						TestTargetID = 5A2A3F7C2B508F93006DD241;
 					};
 					5A2A3F972B508F94006DD241 = {
@@ -204,7 +181,6 @@
 			targets = (
 				5A2A3F7C2B508F93006DD241 /* Momentum */,
 				5A2A3F8D2B508F94006DD241 /* MomentumTests */,
-				5A2A3F972B508F94006DD241 /* MomentumUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -251,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A7191062B50BDE800DC5A26 /* TimerManager_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,11 +245,6 @@
 			isa = PBXTargetDependency;
 			target = 5A2A3F7C2B508F93006DD241 /* Momentum */;
 			targetProxy = 5A2A3F8F2B508F94006DD241 /* PBXContainerItemProxy */;
-		};
-		5A2A3F9A2B508F94006DD241 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5A2A3F7C2B508F93006DD241 /* Momentum */;
-			targetProxy = 5A2A3F992B508F94006DD241 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -452,6 +424,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P4DQK6SRKR;
@@ -461,6 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.marcusziade.MomentumTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Momentum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Momentum";
 			};
@@ -471,6 +445,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P4DQK6SRKR;
@@ -482,40 +457,6 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Momentum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Momentum";
-			};
-			name = Release;
-		};
-		5A2A3FA92B508F94006DD241 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P4DQK6SRKR;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcusziade.MomentumUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Momentum;
-			};
-			name = Debug;
-		};
-		5A2A3FAA2B508F94006DD241 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P4DQK6SRKR;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.marcusziade.MomentumUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Momentum;
 			};
 			name = Release;
 		};
@@ -545,15 +486,6 @@
 			buildConfigurations = (
 				5A2A3FA62B508F94006DD241 /* Debug */,
 				5A2A3FA72B508F94006DD241 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5A2A3FA82B508F94006DD241 /* Build configuration list for PBXNativeTarget "MomentumUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A2A3FA92B508F94006DD241 /* Debug */,
-				5A2A3FAA2B508F94006DD241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
